@@ -14,6 +14,30 @@
 		4610F8E52C74C96100AD5B48 /* TCAPrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4610F8E42C74C96100AD5B48 /* TCAPrototypeUITests.swift */; };
 		4610F8E72C74C96100AD5B48 /* TCAPrototypeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4610F8E62C74C96100AD5B48 /* TCAPrototypeUITestsLaunchTests.swift */; };
 		4610F8F72C74D6C800AD5B48 /* DriversListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4610F8F62C74D6C800AD5B48 /* DriversListView.swift */; };
+		462009722C7A334F008E4E66 /* Cuckoo in Frameworks */ = {isa = PBXBuildFile; productRef = 462009712C7A334F008E4E66 /* Cuckoo */; };
+		462009742C7A334F008E4E66 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = 462009732C7A334F008E4E66 /* ViewInspector */; };
+		462009772C7A337C008E4E66 /* DriverDetailFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A5F0ED2C77EFD00044CE43 /* DriverDetailFeature.swift */; };
+		462009782C7A337C008E4E66 /* FavoriteDriversFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A5F0F02C77F0510044CE43 /* FavoriteDriversFeature.swift */; };
+		462009792C7A337C008E4E66 /* CircuitListYearResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFEFDB2C74EFE10059F8EB /* CircuitListYearResponse.swift */; };
+		4620097A2C7A337C008E4E66 /* DriversListYearResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFEFDD2C74EFE10059F8EB /* DriversListYearResponse.swift */; };
+		4620097B2C7A337C008E4E66 /* Inspection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A5F1492C79387F0044CE43 /* Inspection.swift */; };
+		4620097C2C7A337C008E4E66 /* DriverDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A5F0E02C7768350044CE43 /* DriverDetailView.swift */; };
+		4620097D2C7A337C008E4E66 /* DriversListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4610F8F62C74D6C800AD5B48 /* DriversListView.swift */; };
+		4620097E2C7A337C008E4E66 /* FavoriteDriversView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A5F0E42C77DF250044CE43 /* FavoriteDriversView.swift */; };
+		4620097F2C7A337C008E4E66 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464B37242C753D4E001D9ABB /* NetworkClient.swift */; };
+		462009802C7A337C008E4E66 /* DriversFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A5F0E82C77EF080044CE43 /* DriversFeature.swift */; };
+		462009812C7A337C008E4E66 /* NetworkClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464B37252C753D4E001D9ABB /* NetworkClientProtocol.swift */; };
+		462009822C7A337C008E4E66 /* RaceResultResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFEFDC2C74EFE10059F8EB /* RaceResultResponse.swift */; };
+		462009832C7A3381008E4E66 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4610F8CB2C74C95D00AD5B48 /* AppView.swift */; };
+		462009842C7A3381008E4E66 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A5F0EA2C77EF720044CE43 /* Dependencies.swift */; };
+		462009852C7A3381008E4E66 /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A5F0E22C7789070044CE43 /* AppFeature.swift */; };
+		462009862C7A3394008E4E66 /* drivers.json in Resources */ = {isa = PBXBuildFile; fileRef = 46A5F1072C78BB680044CE43 /* drivers.json */; };
+		462009872C7A3394008E4E66 /* FileUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A5F1052C78BB670044CE43 /* FileUtils.swift */; };
+		462009882C7A3394008E4E66 /* Inspection-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A5F1042C78BB670044CE43 /* Inspection-extension.swift */; };
+		462009892C7A3394008E4E66 /* leclerc_results.json in Resources */ = {isa = PBXBuildFile; fileRef = 46A5F1082C78BB680044CE43 /* leclerc_results.json */; };
+		4620098F2C7A36D2008E4E66 /* DriversListFeatureIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4620098E2C7A36D2008E4E66 /* DriversListFeatureIntegrationTests.swift */; };
+		462009972C7A8B2F008E4E66 /* DriverDetailFeatureIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462009962C7A8B2F008E4E66 /* DriverDetailFeatureIntegrationTests.swift */; };
+		4620099F2C7A8E5F008E4E66 /* FavoriteDriversFeatureIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4620099E2C7A8E5F008E4E66 /* FavoriteDriversFeatureIntegrationTests.swift */; };
 		462FA2C32C793C87002BC8D5 /* DriversListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4610F8F62C74D6C800AD5B48 /* DriversListView.swift */; };
 		464B37262C753D4E001D9ABB /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464B37242C753D4E001D9ABB /* NetworkClient.swift */; };
 		464B37272C753D4E001D9ABB /* NetworkClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464B37252C753D4E001D9ABB /* NetworkClientProtocol.swift */; };
@@ -78,6 +102,13 @@
 			remoteGlobalIDString = 4610F8C52C74C95D00AD5B48;
 			remoteInfo = TCAPrototype;
 		};
+		4620096C2C7A3338008E4E66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4610F8BE2C74C95D00AD5B48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4610F8C52C74C95D00AD5B48;
+			remoteInfo = TCAPrototype;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -86,11 +117,16 @@
 		4610F8CB2C74C95D00AD5B48 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		4610F8CD2C74C96000AD5B48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4610F8D02C74C96000AD5B48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4610F8D62C74C96100AD5B48 /* TCAPrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCAPrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4610F8D62C74C96100AD5B48 /* TCAPrototypeUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCAPrototypeUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4610F8E02C74C96100AD5B48 /* TCAPrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCAPrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4610F8E42C74C96100AD5B48 /* TCAPrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAPrototypeUITests.swift; sourceTree = "<group>"; };
 		4610F8E62C74C96100AD5B48 /* TCAPrototypeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAPrototypeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4610F8F62C74D6C800AD5B48 /* DriversListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriversListView.swift; sourceTree = "<group>"; };
+		462009682C7A3338008E4E66 /* TCAPrototypeIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCAPrototypeIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4620098C2C7A3537008E4E66 /* TCAPrototype.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TCAPrototype.xctestplan; sourceTree = "<group>"; };
+		4620098E2C7A36D2008E4E66 /* DriversListFeatureIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriversListFeatureIntegrationTests.swift; sourceTree = "<group>"; };
+		462009962C7A8B2F008E4E66 /* DriverDetailFeatureIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverDetailFeatureIntegrationTests.swift; sourceTree = "<group>"; };
+		4620099E2C7A8E5F008E4E66 /* FavoriteDriversFeatureIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteDriversFeatureIntegrationTests.swift; sourceTree = "<group>"; };
 		464B37242C753D4E001D9ABB /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		464B37252C753D4E001D9ABB /* NetworkClientProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClientProtocol.swift; sourceTree = "<group>"; };
 		46A5F0E02C7768350044CE43 /* DriverDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverDetailView.swift; sourceTree = "<group>"; };
@@ -147,14 +183,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		462009652C7A3338008E4E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462009722C7A334F008E4E66 /* Cuckoo in Frameworks */,
+				462009742C7A334F008E4E66 /* ViewInspector in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		4610F8BD2C74C95D00AD5B48 = {
 			isa = PBXGroup;
 			children = (
+				4620098C2C7A3537008E4E66 /* TCAPrototype.xctestplan */,
 				4610F8C82C74C95D00AD5B48 /* TCAPrototype */,
 				4610F8D92C74C96100AD5B48 /* TCAPrototypeUnitTests */,
+				462009692C7A3338008E4E66 /* TCAPrototypeIntegrationTests */,
 				4610F8E32C74C96100AD5B48 /* TCAPrototypeUITests */,
 				4610F8C72C74C95D00AD5B48 /* Products */,
 				4610F8F82C74D83900AD5B48 /* Frameworks */,
@@ -165,8 +212,9 @@
 			isa = PBXGroup;
 			children = (
 				4610F8C62C74C95D00AD5B48 /* TCAPrototype.app */,
-				4610F8D62C74C96100AD5B48 /* TCAPrototypeTests.xctest */,
+				4610F8D62C74C96100AD5B48 /* TCAPrototypeUnitTests.xctest */,
 				4610F8E02C74C96100AD5B48 /* TCAPrototypeUITests.xctest */,
+				462009682C7A3338008E4E66 /* TCAPrototypeIntegrationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -222,6 +270,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		462009692C7A3338008E4E66 /* TCAPrototypeIntegrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				4620098D2C7A36AF008E4E66 /* Feature Integration Test */,
+			);
+			path = TCAPrototypeIntegrationTests;
+			sourceTree = "<group>";
+		};
+		4620098D2C7A36AF008E4E66 /* Feature Integration Test */ = {
+			isa = PBXGroup;
+			children = (
+				4620098E2C7A36D2008E4E66 /* DriversListFeatureIntegrationTests.swift */,
+				462009962C7A8B2F008E4E66 /* DriverDetailFeatureIntegrationTests.swift */,
+				4620099E2C7A8E5F008E4E66 /* FavoriteDriversFeatureIntegrationTests.swift */,
+			);
+			path = "Feature Integration Test";
+			sourceTree = "<group>";
+		};
 		464B37232C753D4E001D9ABB /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,9 +311,9 @@
 		46A5F0E72C77EEC60044CE43 /* Drivers Feature */ = {
 			isa = PBXGroup;
 			children = (
-				46A5F0EC2C77EF950044CE43 /* Detail */,
 				4610F8F62C74D6C800AD5B48 /* DriversListView.swift */,
 				46A5F0E82C77EF080044CE43 /* DriversFeature.swift */,
+				46A5F0EC2C77EF950044CE43 /* Detail */,
 			);
 			path = "Drivers Feature";
 			sourceTree = "<group>";
@@ -378,9 +444,9 @@
 			productReference = 4610F8C62C74C95D00AD5B48 /* TCAPrototype.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4610F8D52C74C96100AD5B48 /* TCAPrototypeTests */ = {
+		4610F8D52C74C96100AD5B48 /* TCAPrototypeUnitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4610F8ED2C74C96100AD5B48 /* Build configuration list for PBXNativeTarget "TCAPrototypeTests" */;
+			buildConfigurationList = 4610F8ED2C74C96100AD5B48 /* Build configuration list for PBXNativeTarget "TCAPrototypeUnitTests" */;
 			buildPhases = (
 				4610F8D22C74C96100AD5B48 /* Sources */,
 				4610F8D32C74C96100AD5B48 /* Frameworks */,
@@ -392,13 +458,13 @@
 				46A5F1122C78C08D0044CE43 /* PBXTargetDependency */,
 				4610F8D82C74C96100AD5B48 /* PBXTargetDependency */,
 			);
-			name = TCAPrototypeTests;
+			name = TCAPrototypeUnitTests;
 			packageProductDependencies = (
 				46A5F10F2C78C07D0044CE43 /* Cuckoo */,
 				46A5F1462C7937F80044CE43 /* ViewInspector */,
 			);
 			productName = TCAPrototypeTests;
-			productReference = 4610F8D62C74C96100AD5B48 /* TCAPrototypeTests.xctest */;
+			productReference = 4610F8D62C74C96100AD5B48 /* TCAPrototypeUnitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		4610F8DF2C74C96100AD5B48 /* TCAPrototypeUITests */ = {
@@ -419,6 +485,29 @@
 			productReference = 4610F8E02C74C96100AD5B48 /* TCAPrototypeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		462009672C7A3338008E4E66 /* TCAPrototypeIntegrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 462009702C7A3339008E4E66 /* Build configuration list for PBXNativeTarget "TCAPrototypeIntegrationTests" */;
+			buildPhases = (
+				462009642C7A3338008E4E66 /* Sources */,
+				462009652C7A3338008E4E66 /* Frameworks */,
+				462009662C7A3338008E4E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				462009762C7A3362008E4E66 /* PBXTargetDependency */,
+				4620096D2C7A3338008E4E66 /* PBXTargetDependency */,
+			);
+			name = TCAPrototypeIntegrationTests;
+			packageProductDependencies = (
+				462009712C7A334F008E4E66 /* Cuckoo */,
+				462009732C7A334F008E4E66 /* ViewInspector */,
+			);
+			productName = TCAPrototypeIntegrationTests;
+			productReference = 462009682C7A3338008E4E66 /* TCAPrototypeIntegrationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -437,6 +526,10 @@
 						TestTargetID = 4610F8C52C74C95D00AD5B48;
 					};
 					4610F8DF2C74C96100AD5B48 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 4610F8C52C74C95D00AD5B48;
+					};
+					462009672C7A3338008E4E66 = {
 						CreatedOnToolsVersion = 15.2;
 						TestTargetID = 4610F8C52C74C95D00AD5B48;
 					};
@@ -461,7 +554,8 @@
 			projectRoot = "";
 			targets = (
 				4610F8C52C74C95D00AD5B48 /* TCAPrototype */,
-				4610F8D52C74C96100AD5B48 /* TCAPrototypeTests */,
+				4610F8D52C74C96100AD5B48 /* TCAPrototypeUnitTests */,
+				462009672C7A3338008E4E66 /* TCAPrototypeIntegrationTests */,
 				4610F8DF2C74C96100AD5B48 /* TCAPrototypeUITests */,
 			);
 		};
@@ -490,6 +584,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462009662C7A3338008E4E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462009862C7A3394008E4E66 /* drivers.json in Resources */,
+				462009892C7A3394008E4E66 /* leclerc_results.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,6 +667,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		462009642C7A3338008E4E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4620097C2C7A337C008E4E66 /* DriverDetailView.swift in Sources */,
+				4620097F2C7A337C008E4E66 /* NetworkClient.swift in Sources */,
+				4620097E2C7A337C008E4E66 /* FavoriteDriversView.swift in Sources */,
+				462009842C7A3381008E4E66 /* Dependencies.swift in Sources */,
+				4620097B2C7A337C008E4E66 /* Inspection.swift in Sources */,
+				462009822C7A337C008E4E66 /* RaceResultResponse.swift in Sources */,
+				462009812C7A337C008E4E66 /* NetworkClientProtocol.swift in Sources */,
+				462009852C7A3381008E4E66 /* AppFeature.swift in Sources */,
+				462009772C7A337C008E4E66 /* DriverDetailFeature.swift in Sources */,
+				4620099F2C7A8E5F008E4E66 /* FavoriteDriversFeatureIntegrationTests.swift in Sources */,
+				462009782C7A337C008E4E66 /* FavoriteDriversFeature.swift in Sources */,
+				462009802C7A337C008E4E66 /* DriversFeature.swift in Sources */,
+				462009972C7A8B2F008E4E66 /* DriverDetailFeatureIntegrationTests.swift in Sources */,
+				4620098F2C7A36D2008E4E66 /* DriversListFeatureIntegrationTests.swift in Sources */,
+				462009832C7A3381008E4E66 /* AppView.swift in Sources */,
+				462009872C7A3394008E4E66 /* FileUtils.swift in Sources */,
+				462009792C7A337C008E4E66 /* CircuitListYearResponse.swift in Sources */,
+				462009882C7A3394008E4E66 /* Inspection-extension.swift in Sources */,
+				4620097D2C7A337C008E4E66 /* DriversListView.swift in Sources */,
+				4620097A2C7A337C008E4E66 /* DriversListYearResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -576,6 +706,15 @@
 			isa = PBXTargetDependency;
 			target = 4610F8C52C74C95D00AD5B48 /* TCAPrototype */;
 			targetProxy = 4610F8E12C74C96100AD5B48 /* PBXContainerItemProxy */;
+		};
+		4620096D2C7A3338008E4E66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4610F8C52C74C95D00AD5B48 /* TCAPrototype */;
+			targetProxy = 4620096C2C7A3338008E4E66 /* PBXContainerItemProxy */;
+		};
+		462009762C7A3362008E4E66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 462009752C7A3362008E4E66 /* CuckooPluginSingleFile */;
 		};
 		46A5F1122C78C08D0044CE43 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -837,6 +976,42 @@
 			};
 			name = Release;
 		};
+		4620096E2C7A3339008E4E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9L5Q35JV6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gabrieledintino.TCAPrototypeIntegrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCAPrototype.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCAPrototype";
+			};
+			name = Debug;
+		};
+		4620096F2C7A3339008E4E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9L5Q35JV6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gabrieledintino.TCAPrototypeIntegrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCAPrototype.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCAPrototype";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -858,7 +1033,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4610F8ED2C74C96100AD5B48 /* Build configuration list for PBXNativeTarget "TCAPrototypeTests" */ = {
+		4610F8ED2C74C96100AD5B48 /* Build configuration list for PBXNativeTarget "TCAPrototypeUnitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4610F8EE2C74C96100AD5B48 /* Debug */,
@@ -872,6 +1047,15 @@
 			buildConfigurations = (
 				4610F8F12C74C96100AD5B48 /* Debug */,
 				4610F8F22C74C96100AD5B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		462009702C7A3339008E4E66 /* Build configuration list for PBXNativeTarget "TCAPrototypeIntegrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4620096E2C7A3339008E4E66 /* Debug */,
+				4620096F2C7A3339008E4E66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -906,6 +1090,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		462009712C7A334F008E4E66 /* Cuckoo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46A5F10E2C78C07D0044CE43 /* XCRemoteSwiftPackageReference "Cuckoo" */;
+			productName = Cuckoo;
+		};
+		462009732C7A334F008E4E66 /* ViewInspector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46A5F1452C7937F70044CE43 /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			productName = ViewInspector;
+		};
+		462009752C7A3362008E4E66 /* CuckooPluginSingleFile */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46A5F10E2C78C07D0044CE43 /* XCRemoteSwiftPackageReference "Cuckoo" */;
+			productName = "plugin:CuckooPluginSingleFile";
+		};
 		4665D0F62C7536B300942AB7 /* ComposableArchitecture */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 4665D0F52C7536B300942AB7 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;

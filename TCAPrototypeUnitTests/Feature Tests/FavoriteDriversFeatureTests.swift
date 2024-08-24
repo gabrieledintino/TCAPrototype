@@ -6,8 +6,6 @@
 //
 
 import XCTest
-
-import XCTest
 import ComposableArchitecture
 @testable import TCAPrototype
 import Cuckoo

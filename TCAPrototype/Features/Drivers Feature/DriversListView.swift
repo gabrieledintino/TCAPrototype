@@ -24,7 +24,7 @@ struct DriversListView: View {
                     ErrorView(message: errorMessage)
                         .accessibilityIdentifier("error_view")
                 } else {
-                    driversList(store: store)
+                    driversList
                 }
             }
             .navigationTitle("F1 Drivers")
@@ -38,7 +38,7 @@ struct DriversListView: View {
 
     }
     
-    private func driversList(store: Store<DriversListFeature.State, DriversListFeature.Action>) -> some View {
+    private var driversList: some View {
         List(store.filteredDrivers, id: \.driverID) { driver in
             NavigationLink(state: DriverDetailFeature.State(driver: driver)) {
                 DriverRow(driver: driver)

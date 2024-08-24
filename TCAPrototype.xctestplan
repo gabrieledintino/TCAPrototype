@@ -1,0 +1,45 @@
+{
+  "configurations" : [
+    {
+      "id" : "32ADA082-CB61-4353-922C-FE616F45E94F",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:TCAPrototype.xcodeproj",
+      "identifier" : "4610F8C52C74C95D00AD5B48",
+      "name" : "TCAPrototype"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:TCAPrototype.xcodeproj",
+        "identifier" : "4610F8D52C74C96100AD5B48",
+        "name" : "TCAPrototypeUnitTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:TCAPrototype.xcodeproj",
+        "identifier" : "462009672C7A3338008E4E66",
+        "name" : "TCAPrototypeIntegrationTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:TCAPrototype.xcodeproj",
+        "identifier" : "4610F8DF2C74C96100AD5B48",
+        "name" : "TCAPrototypeUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

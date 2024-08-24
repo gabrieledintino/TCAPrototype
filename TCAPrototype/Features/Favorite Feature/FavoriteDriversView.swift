@@ -26,7 +26,7 @@ struct FavoriteDriversView: View {
                         .foregroundColor(.secondary)
                         .accessibilityIdentifier("text_view")
                 } else {
-                    favoriteDriversList(store: store)
+                    favoriteDriversList
                 }
             }
             .navigationTitle("Favorite Drivers")
@@ -39,7 +39,7 @@ struct FavoriteDriversView: View {
         .onReceive(inspection.notice) { self.inspection.visit(self, $0) }
     }
     
-    private func favoriteDriversList(store: Store<FavoriteDriversFeature.State, FavoriteDriversFeature.Action>) -> some View {
+    private var favoriteDriversList: some View {
         List {
             ForEach(store.favoriteDrivers, id: \.driverID) { driver in
                 NavigationLink(state: DriverDetailFeature.State(driver: driver)) {

@@ -220,6 +220,7 @@ final class DriverDetailViewUITests: XCTestCase {
         let exp2 = sut.inspection.inspect() { view in
             let button = try view.list().toolbar().item(0).button()
             XCTAssertEqual(try button.labelView().image().actualImage().name(), "star.fill")
+            favoriteIDs = []
         }
         ViewHosting.host(view: sut)
         wait(for: [exp1, exp2], timeout: 3)

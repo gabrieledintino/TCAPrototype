@@ -11,8 +11,6 @@
 		4610F8CC2C74C95D00AD5B48 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4610F8CB2C74C95D00AD5B48 /* AppView.swift */; };
 		4610F8CE2C74C96000AD5B48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4610F8CD2C74C96000AD5B48 /* Assets.xcassets */; };
 		4610F8D12C74C96000AD5B48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4610F8D02C74C96000AD5B48 /* Preview Assets.xcassets */; };
-		4610F8E52C74C96100AD5B48 /* TCAPrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4610F8E42C74C96100AD5B48 /* TCAPrototypeUITests.swift */; };
-		4610F8E72C74C96100AD5B48 /* TCAPrototypeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4610F8E62C74C96100AD5B48 /* TCAPrototypeUITestsLaunchTests.swift */; };
 		4610F8F72C74D6C800AD5B48 /* DriversListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4610F8F62C74D6C800AD5B48 /* DriversListView.swift */; };
 		462009722C7A334F008E4E66 /* Cuckoo in Frameworks */ = {isa = PBXBuildFile; productRef = 462009712C7A334F008E4E66 /* Cuckoo */; };
 		462009742C7A334F008E4E66 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = 462009732C7A334F008E4E66 /* ViewInspector */; };
@@ -42,6 +40,9 @@
 		464B37262C753D4E001D9ABB /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464B37242C753D4E001D9ABB /* NetworkClient.swift */; };
 		464B37272C753D4E001D9ABB /* NetworkClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464B37252C753D4E001D9ABB /* NetworkClientProtocol.swift */; };
 		4665D0F72C7536B300942AB7 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 4665D0F62C7536B300942AB7 /* ComposableArchitecture */; };
+		466A363D2C7A9AFA00EA32D6 /* DriverDetailViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A363A2C7A9AFA00EA32D6 /* DriverDetailViewUITests.swift */; };
+		466A363E2C7A9AFA00EA32D6 /* FavoriteDriversViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A363B2C7A9AFA00EA32D6 /* FavoriteDriversViewUITests.swift */; };
+		466A363F2C7A9AFA00EA32D6 /* DriversListViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A363C2C7A9AFA00EA32D6 /* DriversListViewUITests.swift */; };
 		46A5F0E12C7768350044CE43 /* DriverDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A5F0E02C7768350044CE43 /* DriverDetailView.swift */; };
 		46A5F0E32C7789070044CE43 /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A5F0E22C7789070044CE43 /* AppFeature.swift */; };
 		46A5F0E52C77DF250044CE43 /* FavoriteDriversView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A5F0E42C77DF250044CE43 /* FavoriteDriversView.swift */; };
@@ -119,8 +120,6 @@
 		4610F8D02C74C96000AD5B48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4610F8D62C74C96100AD5B48 /* TCAPrototypeUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCAPrototypeUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4610F8E02C74C96100AD5B48 /* TCAPrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCAPrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4610F8E42C74C96100AD5B48 /* TCAPrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAPrototypeUITests.swift; sourceTree = "<group>"; };
-		4610F8E62C74C96100AD5B48 /* TCAPrototypeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAPrototypeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4610F8F62C74D6C800AD5B48 /* DriversListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriversListView.swift; sourceTree = "<group>"; };
 		462009682C7A3338008E4E66 /* TCAPrototypeIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCAPrototypeIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4620098C2C7A3537008E4E66 /* TCAPrototype.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TCAPrototype.xctestplan; sourceTree = "<group>"; };
@@ -129,6 +128,9 @@
 		4620099E2C7A8E5F008E4E66 /* FavoriteDriversFeatureIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteDriversFeatureIntegrationTests.swift; sourceTree = "<group>"; };
 		464B37242C753D4E001D9ABB /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		464B37252C753D4E001D9ABB /* NetworkClientProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClientProtocol.swift; sourceTree = "<group>"; };
+		466A363A2C7A9AFA00EA32D6 /* DriverDetailViewUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverDetailViewUITests.swift; sourceTree = "<group>"; };
+		466A363B2C7A9AFA00EA32D6 /* FavoriteDriversViewUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteDriversViewUITests.swift; sourceTree = "<group>"; };
+		466A363C2C7A9AFA00EA32D6 /* DriversListViewUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriversListViewUITests.swift; sourceTree = "<group>"; };
 		46A5F0E02C7768350044CE43 /* DriverDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverDetailView.swift; sourceTree = "<group>"; };
 		46A5F0E22C7789070044CE43 /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
 		46A5F0E42C77DF250044CE43 /* FavoriteDriversView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteDriversView.swift; sourceTree = "<group>"; };
@@ -202,7 +204,7 @@
 				4610F8C82C74C95D00AD5B48 /* TCAPrototype */,
 				4610F8D92C74C96100AD5B48 /* TCAPrototypeUnitTests */,
 				462009692C7A3338008E4E66 /* TCAPrototypeIntegrationTests */,
-				4610F8E32C74C96100AD5B48 /* TCAPrototypeUITests */,
+				4610F8E32C74C96100AD5B48 /* TCAPrototypeE2ETests */,
 				4610F8C72C74C95D00AD5B48 /* Products */,
 				4610F8F82C74D83900AD5B48 /* Frameworks */,
 			);
@@ -254,13 +256,14 @@
 			path = TCAPrototypeUnitTests;
 			sourceTree = "<group>";
 		};
-		4610F8E32C74C96100AD5B48 /* TCAPrototypeUITests */ = {
+		4610F8E32C74C96100AD5B48 /* TCAPrototypeE2ETests */ = {
 			isa = PBXGroup;
 			children = (
-				4610F8E42C74C96100AD5B48 /* TCAPrototypeUITests.swift */,
-				4610F8E62C74C96100AD5B48 /* TCAPrototypeUITestsLaunchTests.swift */,
+				466A363A2C7A9AFA00EA32D6 /* DriverDetailViewUITests.swift */,
+				466A363C2C7A9AFA00EA32D6 /* DriversListViewUITests.swift */,
+				466A363B2C7A9AFA00EA32D6 /* FavoriteDriversViewUITests.swift */,
 			);
-			path = TCAPrototypeUITests;
+			path = TCAPrototypeE2ETests;
 			sourceTree = "<group>";
 		};
 		4610F8F82C74D83900AD5B48 /* Frameworks */ = {
@@ -527,6 +530,7 @@
 					};
 					4610F8DF2C74C96100AD5B48 = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 						TestTargetID = 4610F8C52C74C95D00AD5B48;
 					};
 					462009672C7A3338008E4E66 = {
@@ -662,8 +666,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4610F8E72C74C96100AD5B48 /* TCAPrototypeUITestsLaunchTests.swift in Sources */,
-				4610F8E52C74C96100AD5B48 /* TCAPrototypeUITests.swift in Sources */,
+				466A363E2C7A9AFA00EA32D6 /* FavoriteDriversViewUITests.swift in Sources */,
+				466A363F2C7A9AFA00EA32D6 /* DriversListViewUITests.swift in Sources */,
+				466A363D2C7A9AFA00EA32D6 /* DriverDetailViewUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -944,6 +949,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9L5Q35JV6A;
@@ -952,6 +958,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gabrieledintino.TCAPrototypeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = TCAPrototype;
@@ -962,6 +969,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9L5Q35JV6A;

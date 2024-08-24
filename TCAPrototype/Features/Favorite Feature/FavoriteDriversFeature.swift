@@ -13,7 +13,7 @@ struct FavoriteDriversFeature {
     @ObservableState
     struct State: Equatable {
         var path = StackState<DriverDetailFeature.State>()
-        fileprivate var drivers: [Driver] = []
+        var drivers: [Driver] = []
         var isLoading: Bool = false
         var errorMessage: String?
         @Shared(.fileStorage(.applicationSupportDirectory.appending(component: "favorites"))) var favoriteIDs: [String] = []

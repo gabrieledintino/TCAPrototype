@@ -10,7 +10,8 @@ import ComposableArchitecture
 
 struct DriverDetailView: View {
     let store: StoreOf<DriverDetailFeature>
-    
+    internal let inspection = Inspection<Self>()
+
     var body: some View {
         List {
             Section(header: Text("Driver Information")) {
@@ -53,6 +54,7 @@ struct DriverDetailView: View {
         .task {
             store.send(.onAppear)
         }
+        .onReceive(inspection.notice) { self.inspection.visit(self, $0) }
     }
 }
 

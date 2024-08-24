@@ -10,7 +10,8 @@ import ComposableArchitecture
 
 struct FavoriteDriversView: View {
     @Bindable var store: StoreOf<FavoriteDriversFeature>
-    
+    internal let inspection = Inspection<Self>()
+
     var body: some View {
         NavigationStack(path: $store.scope(state: \.path, action: \.path)) {
             ZStack {
@@ -35,6 +36,7 @@ struct FavoriteDriversView: View {
         .task {
             store.send(.onAppear)
         }
+        .onReceive(inspection.notice) { self.inspection.visit(self, $0) }
     }
     
     private func favoriteDriversList(store: Store<FavoriteDriversFeature.State, FavoriteDriversFeature.Action>) -> some View {

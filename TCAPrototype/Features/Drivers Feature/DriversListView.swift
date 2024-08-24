@@ -12,7 +12,8 @@ import ComposableArchitecture
 
 struct DriversListView: View {
     @Bindable var store: StoreOf<DriversListFeature>
-    
+    internal let inspection = Inspection<Self>()
+
     var body: some View {
         NavigationStack(path: $store.scope(state: \.path, action: \.path)) {
             ZStack {
@@ -32,7 +33,9 @@ struct DriversListView: View {
         }
         .searchable(text: $store.searchText.sending(\.searchTextChanged)
                     , prompt: "Search drivers")
-        .onAppear { store.send(.onAppear) }
+        .task { store.send(.onAppear) }
+        .onReceive(inspection.notice) { self.inspection.visit(self, $0) }
+
     }
     
     private func driversList(store: Store<DriversListFeature.State, DriversListFeature.Action>) -> some View {
